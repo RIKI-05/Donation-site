@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" href="home.css">
+
+<body style="background-image: radial-gradient(rgb(253, 251, 251) pink rgb(250, 143, 128));">
+    <!--sticky top nav bar-->
+    <div id="topnav">
+        <div class="logo">
+            <img src="undraw_education_f8ru.svg" alt="" width="72" height="72">
+        </div>
+
+        <a class="active" href="home.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="index.html">Donate</a>
+        <!-- <a href="volunteer.html">Volunteer</a> -->
+        <!-- <button class="button button1"><a href="index.html"></a> LOGIN/SIGN-UP</button> -->
+        <!-- <a class="button button1" href="index.html">LOGIN/SIGN-UP </a> -->
+        <div id="button">
+            <a href="sign.html" target="_blank">LOGIN/SIGN-UP</a></div>
+    </div>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("topnav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <!--jumbotron-->
+    <div class="jumbotron text-center">
+        <h1>HELP SHAPING A FUTURE</h1>
+        <h4>So many rural children don't have access to online education </h4>
+    </div>
+    <div class="comb">
+        <div class="know">
+            <a href="Demo.html" target="_blank" id="knoi">CLICK HERE TO KNOW MORE ABOUT US
+       </a>
+        </div>
+        <p></p>
+        <div class="cont">
+            <img src="img/help.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+                <div class="text"><i>Giving is not just<br>
+          about making a donation,<br>
+          it's about<br><b>making a difference</b></i>
+                    <p style="float:right;"><i>-Kathy Calvin</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-size: 40px">Follow us on</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+    </footer>
+
+</body>
+
+</html>

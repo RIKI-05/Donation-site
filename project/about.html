@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>home page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+
+<body style="background-image: url(img/help.jpg); background-size: cover;">
+
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="#contributer">Contributers</a>
+        <a href="#donation">donate</a>
+        <a href="#volunteer">volunteer</a>
+    </div>
+
+    <div class="logo">
+
+    </div>
+
+
+    <button class="accordion">HOW DOES IT WORK?</button>
+    <div class="panel">
+        <p>
+            <ul>
+                <h4>
+                    <li>Monetary funds are accepted through paytm, google pay,paypal, and net banking.<br> even the smallest of your contributions will be appreciated</li>
+                    <li>You can lend or donate your systems (laptops,smartphones).We have a supporting team , they'll come to your place you have to fill a form and provide them with your devices</li>
+                </h4>
+                <ol>
+                    <li><b>Lending device:</b>If you're lending your system it must be in good working condition,you can choose it to lend aywhere between 1 month to 1 year.We will insure your laptops during the period any damage to your property will be
+                        coverd by us.
+                    </li>
+                    <li>
+                        <b>Donating device:</b> you can donate smartphones and laptops with decent specifications
+                    </li>
+                </ol>
+            </ul>
+
+        </p>
+    </div>
+
+
+    <button class="accordion">WHAT WILL YOU GET?</button>
+    <div class="panel">
+        <p>
+            <h4>
+                <li>One of the positives of working for a charity is the overwhelming sense of driving change. It can be stimulating and rewarding work, with a real sense of fulfilment. Your role will focus on enforcing the message of doing good by others,
+                    and employees will have an ethical and moral code to follow as a representative of that charity.</li>
+                <li>We will be providing you with certificates for your nobel work. And as a tocken of appreciation we will be featuring you on our website to inspire more people
+                </li>
+            </h4>
+        </p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <div class="jumbotron text-center ">
+        <h1>BECOME A HELPING HAND</h1>
+    </div>
+
+
+</body>
+
+</html>

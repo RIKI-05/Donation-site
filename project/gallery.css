@@ -1,0 +1,117 @@
+#topnav {
+    background-color: rgb(73, 3, 3);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+#topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+#topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/*responsive top nav */
+
+@media screen and (max-width: 500px) {
+    .topnav a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+/* Add a color to the active/current link */
+
+#topnav a.active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* logo  */
+
+.logo {
+    float: left;
+}
+
+.fa {
+    padding: 3px;
+    font-size: 50px;
+    width: 73px;
+    height: 62px;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: white;
+    background-color: rgb(73, 3, 3);
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-linkedin {
+    background: white;
+    color: black;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: right;
+    padding: 3px;
+    background-color: rgb(73, 3, 3);
+    color: white;
+}
+
+marquee {
+    float: right;
+}
+
+
+/* button */
+
+#button {
+    float: right;
+}
+
+
+/* logo  */
+
+.logo {
+    float: left;
+}
